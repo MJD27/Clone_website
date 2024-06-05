@@ -1,0 +1,228 @@
+h1 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+h2 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important ;
+    padding: 10px;
+}
+
+h3 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    padding: 10px;
+    padding-bottom: px;
+}
+
+h4 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+h5 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+a {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+h6 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+p {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 18px !important;
+}
+.conainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo h3 {
+    margin: 0;
+    color: #161615; /* Orange color for logo text (assuming from hypothetical image) */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #161615; /* White text color for nav links */
+    text-decoration: none;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 0rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq.active .answer {
+    max-height: 300px !important;
+}
+
+.button-change .whatsapp-demo {
+    background-color: #25D366;
+    border-radius: 50px;
+    line-height: 1.125;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.button-change .whatsapp-demo:hover {
+    color: #fff;
+    background-color: #23c35e;
+}
+
+.button-change .book-demo {
+    background-color: #007bff;
+    border-radius: 50px;
+    line-height: 1.125;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.button-change .book-demo:hover {
+    color: #fff;
+    background-color: #006bdd;
+}
+
+.button-change .book-demo1 {
+    background-color: #fff;
+    border-radius: 50px;
+    line-height: 1.125;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #007bff;
+    transition: 0.5s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.button-change .book-demo1:hover {
+    color: #0064cf;
+    background-color: #fff;
+}
+
+@media(max-width: 337px) {
+    a.whatsapp-demo {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .seven {
+        margin-right: 130px;
+    }
+
+    .hunderd {
+        margin-right: 130px;
+    }
+
+    .sapn {
+        margin-left: -130px;
+    }
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.banner-section a:hover {
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+
+    div.col-md.p-2.let-start {
+        display: none;
+    }
+
+    .book-now-btn a {
+        float: right;
+        margin-top: -60px;
+    }
+}
+
+@media(max-width: 420px) {
+
+    .book-now-btn a {
+        float: left;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 770px) {
+    .one {
+        position: relative;
+        top: -30px !important;
+    }
+
+    .two {
+        position: relative;
+        top: -50px !important;
+    }
+
+    .three {
+        position: relative;
+        top: -80px !important;
+    }
+
+    .four {
+        position: relative;
+        top: -50px !important;
+    }
+
+}
+
+#cancel {
+    padding-left: 95%;
+    color: #F4F4F4;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 100px) {
+    #cancel {
+        padding-left: 330px;
+        color: #F4F4F4;
+    }
+}
+.constainer{
+    padding: 50px;
+}
+
+.container banner-section{
+    padding: 50px;
+}
